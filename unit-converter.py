@@ -30,7 +30,7 @@ def convert_units( Subject , Value , Unit ):
         elif Unit == "m/s to Km/hr":
             return Value / 0.2778
 
-    elif Subject == " Physics":
+    elif Subject == "Physics":
         if Unit == "Newton to Dyne":
             return Value * 1e5
         elif Unit == "Dyne to Newton":
